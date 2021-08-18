@@ -1,0 +1,249 @@
+/*
+
+Xilinx Vivado v2019.2 (64-bit) [Major: 2019, Minor: 2]
+SW Build: 2708876 on Wed Nov  6 21:40:23 MST 2019
+IP Build: 2700528 on Thu Nov  7 00:09:20 MST 2019
+
+Process ID (PID): 12292
+License: Customer
+
+Current time: 	Wed Aug 11 23:52:02 IST 2021
+Time zone: 	India Standard Time (Asia/Calcutta)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 8
+
+Screen size: 1920x1080
+Screen resolution (DPI): 150
+Available screens: 2
+Available disk space: 71 GB
+Default font: family=Segoe UI,name=Segoe UI,style=plain,size=18
+
+Java version: 	9.0.4 64-bit
+Java home: 	E:/xilinx19/Vivado/2019.2/tps/win64/jre9.0.4
+Java executable location: 	E:/xilinx19/Vivado/2019.2/tps/win64/jre9.0.4/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	Abhishek
+User home directory: C:/Users/Abhishek
+User working directory: C:/Users/Abhishek/Desktop/UART/spi_controller/spi controller
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: E:/xilinx19/Vivado
+HDI_APPROOT: E:/xilinx19/Vivado/2019.2
+RDI_DATADIR: E:/xilinx19/Vivado/2019.2/data
+RDI_BINDIR: E:/xilinx19/Vivado/2019.2/bin
+
+Vivado preferences file location: C:/Users/Abhishek/AppData/Roaming/Xilinx/Vivado/2019.2/vivado.xml
+Vivado preferences directory: C:/Users/Abhishek/AppData/Roaming/Xilinx/Vivado/2019.2/
+Vivado layouts directory: C:/Users/Abhishek/AppData/Roaming/Xilinx/Vivado/2019.2/layouts
+PlanAhead jar file location: 	E:/xilinx19/Vivado/2019.2/lib/classes/planAhead.jar
+Vivado log file location: 	C:/Users/Abhishek/Desktop/UART/spi_controller/spi controller/vivado.log
+Vivado journal file location: 	C:/Users/Abhishek/Desktop/UART/spi_controller/spi controller/vivado.jou
+Engine tmp dir: 	C:/Users/Abhishek/Desktop/UART/spi_controller/spi controller/.Xil/Vivado-12292-ABHISHEK
+
+Xilinx Environment Variables
+----------------------------
+NO_XILINX_DATA_LICENSE: HIDDEN
+XILINX: E:/xilinx19/Vivado/2019.2/ids_lite/ISE
+XILINX_DSP: E:/xilinx19/Vivado/2019.2/ids_lite/ISE
+XILINX_PLANAHEAD: E:/xilinx19/Vivado/2019.2
+XILINX_SDK: E:/xilinx19/Vitis/2019.2
+XILINX_VITIS: E:/xilinx19/Vitis/2019.2
+XILINX_VIVADO: E:/xilinx19/Vivado/2019.2
+XILINX_VIVADO_HLS: E:/xilinx19/Vivado/2019.2
+
+
+GUI allocated memory:	461 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 732 MB
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 76 MB (+76704kb) [00:00:06]
+// [Engine Memory]: 729 MB (+612534kb) [00:00:06]
+// aN (cr): Older Project Version: addNotify
+// HMemoryUtils.trashcanNow. Engine heap size: 732 MB. GUI used memory: 55 MB. Current time: 8/11/21, 11:52:04 PM IST
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (aN)
+// Opening Vivado Project: C:\Users\Abhishek\Desktop\UART\spi_controller\spi controller\spi controller.xpr. Version: Vivado v2018.3 
+// bB (cr):  Open Project : addNotify
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+dismissDialog("Older Project Version"); // aN (cr)
+// Tcl Message: open_project {C:/Users/Abhishek/Desktop/UART/spi_controller/spi controller/spi controller.xpr} 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_FAILED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 115 MB (+37584kb) [00:00:19]
+// [Engine Memory]: 868 MB (+107435kb) [00:00:19]
+// WARNING: HEventQueue.dispatchEvent() is taking  3471 ms.
+// Tcl Message: open_project {C:/Users/Abhishek/Desktop/UART/spi_controller/spi controller/spi controller.xpr} 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [Project 1-230] Project 'spi controller.xpr' upgraded for this version of Vivado. INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/xilinx19/Vivado/2019.2/data/ip'. 
+// Tcl Message: open_project: Time (s): cpu = 00:00:15 ; elapsed = 00:00:07 . Memory (MB): peak = 974.898 ; gain = 0.000 
+// Project name: spi controller; location: C:/Users/Abhishek/Desktop/UART/spi_controller/spi controller; part: xc7z020clg484-1
+// [Engine Memory]: 937 MB (+27837kb) [00:00:22]
+dismissDialog("Open Project"); // bB (cr)
+// HMemoryUtils.trashcanNow. Engine heap size: 945 MB. GUI used memory: 63 MB. Current time: 8/11/21, 11:52:19 PM IST
+// [GUI Memory]: 122 MB (+1324kb) [00:00:26]
+// Tcl Message: update_compile_order -fileset sources_1 
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, SPI_Master(RTL) (spi_controller.vhd)]", 1, false); // B (F, cr)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, SPI_Master(RTL) (spi_controller.vhd)]", 1, false, false, false, false, false, true); // B (F, cr) - Double Click
+// Elapsed time: 16 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // u (O, cr)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// bB (cr):  Resetting Runs : addNotify
+selectButton("OptionPane.button", "OK"); // JButton (A, G)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// f (cr): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// bB (cr):  Starting Design Runs : addNotify
+dismissDialog("Launch Runs"); // f (cr)
+// TclEventType: RUN_LAUNCH
+// Tcl Message: launch_runs synth_1 -jobs 8 
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Wed Aug 11 23:52:46 2021] Launched synth_1... Run output will be captured here: C:/Users/Abhishek/Desktop/UART/spi_controller/spi controller/spi controller.runs/synth_1/runme.log 
+// 'k' command handler elapsed time: 5 seconds
+dismissDialog("Starting Design Runs"); // bB (cr)
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// aj (cr): Synthesis Completed: addNotify
+// Elapsed time: 52 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (aj)
+// Run Command: PAResourceCommand.PACommandNames_RUN_IMPLEMENTATION
+// f (cr): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// bB (cr):  Starting Design Runs : addNotify
+dismissDialog("Launch Runs"); // f (cr)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -jobs 8 
+// Tcl Message: [Wed Aug 11 23:53:42 2021] Launched impl_1... Run output will be captured here: C:/Users/Abhishek/Desktop/UART/spi_controller/spi controller/spi controller.runs/impl_1/runme.log 
+// 'c' command handler elapsed time: 3 seconds
+dismissDialog("Starting Design Runs"); // bB (cr)
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// aj (cr): Implementation Completed: addNotify
+// Elapsed time: 76 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (aj)
+// Run Command: PAResourceCommand.PACommandNames_GOTO_IMPLEMENTED_DESIGN
+// bB (cr):  Open Implemented Design : addNotify
+// Tcl Message: open_run impl_1 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,377 MB. GUI used memory: 66 MB. Current time: 8/11/21, 11:55:04 PM IST
+// TclEventType: FLOORPLAN_MODIFY
+// TclEventType: DESIGN_NEW
+// HMemoryUtils.trashcanNow. Engine heap size: 1,834 MB. GUI used memory: 66 MB. Current time: 8/11/21, 11:55:13 PM IST
+// [Engine Memory]: 1,858 MB (+915733kb) [00:03:19]
+// Xgd.load filename: E:/xilinx19/Vivado/2019.2/data/parts/xilinx/zynq/devint/zynq/xc7z020/xc7z020.xgd; ZipEntry: xc7z020_detail.xgd elapsed time: 0.7s
+// TclEventType: HFED_INIT_ROUTE_STORAGE_COMPLETED
+// TclEventType: DESIGN_NEW
+// WARNING: HEventQueue.dispatchEvent() is taking  1531 ms.
+// TclEventType: CURR_DESIGN_SET
+// Tcl Message: INFO: [Device 21-403] Loading part xc7z020clg484-1 
+// Tcl Message: Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1243.539 ; gain = 0.000 
+// Tcl Message: INFO: [Project 1-479] Netlist was created with Vivado 2019.2 INFO: [Project 1-570] Preparing netlist for logic optimization INFO: [Timing 38-478] Restoring timing data from binary archive. INFO: [Timing 38-479] Binary timing data restore complete. INFO: [Project 1-856] Restoring constraints from binary archive. INFO: [Project 1-853] Binary constraint restore complete. 
+// Tcl Message: Reading XDEF placement. Reading placer database... Reading XDEF routing. 
+// Tcl Message: Read XDEF File: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.051 . Memory (MB): peak = 1913.477 ; gain = 0.000 
+// Tcl Message: Restored from archive | CPU: 0.000000 secs | Memory: 0.000000 MB | 
+// Tcl Message: Finished XDEF File Restore: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.051 . Memory (MB): peak = 1913.477 ; gain = 0.000 Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1913.477 ; gain = 0.000 
+// Tcl Message: INFO: [Project 1-111] Unisim Transformation Summary: No Unisim elements were transformed.  
+// TclEventType: DRC_ADDED
+// Tcl Message: open_run: Time (s): cpu = 00:00:23 ; elapsed = 00:00:17 . Memory (MB): peak = 2038.199 ; gain = 1063.301 
+// TclEventType: DRC_ADDED
+// [GUI Memory]: 145 MB (+17313kb) [00:03:22]
+// TclEventType: METHODOLOGY_ADDED
+// TclEventType: POWER_UPDATED
+// TclEventType: TIMING_SUMMARY_UPDATED
+// [Engine Memory]: 1,955 MB (+4178kb) [00:03:24]
+// [GUI Memory]: 153 MB (+447kb) [00:03:24]
+// 'dQ' command handler elapsed time: 19 seconds
+// Elapsed time: 20 seconds
+dismissDialog("Open Implemented Design"); // bB (cr)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,960 MB. GUI used memory: 99 MB. Current time: 8/11/21, 11:55:29 PM IST
+// Elapsed time: 11 seconds
+selectTab((HResource) null, (HResource) null, "Timing", 5); // aL (aI, cr)
+selectTab((HResource) null, (HResource) null, "Methodology", 6); // aL (aI, cr)
+selectTab((HResource) null, (HResource) null, "Power", 7); // aL (aI, cr)
+selectTab((HResource) null, (HResource) null, "DRC", 8); // aL (aI, cr)
+selectTab((HResource) null, (HResource) null, "Design Runs", 4); // aL (aI, cr)
+// Elapsed time: 93 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10, false); // u (O, cr)
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // ai (ao, cr)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL
+// e (cr):  Run Simulation : addNotify
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: launch_simulation 
+// Tcl Message: Command: launch_simulation  
+// Tcl Message: INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Abhishek/Desktop/UART/spi_controller/spi controller/spi controller.sim/sim_1/behav/xsim' INFO: [SIM-utils-51] Simulation object is 'sim_1' INFO: [SIM-utils-54] Inspecting design source files for 'SPI_Master' in fileset 'sim_1'... INFO: [USF-XSim-97] Finding global include files... INFO: [USF-XSim-98] Fetching design files from 'sim_1'... INFO: [USF-XSim-2] XSim::Compile design 
+// Tcl Message: INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Abhishek/Desktop/UART/spi_controller/spi controller/spi controller.sim/sim_1/behav/xsim' 
+// Tcl Message: "xvhdl --incr --relax -prj SPI_Master_vhdl.prj" 
+// TclEventType: LAUNCH_SIM_LOG
+// Tcl Message: INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Abhishek/Desktop/UART/spi_controller/spi controller/spi controller.srcs/sources_1/new/spi_controller.vhd" into library xil_defaultlib INFO: [VRFC 10-3107] analyzing entity 'SPI_Master' 
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '2' seconds INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Abhishek/Desktop/UART/spi_controller/spi controller/spi controller.sim/sim_1/behav/xsim' 
+// Tcl Message: "xelab -wto 554aa74b85c94321b218f16ec6317d94 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot SPI_Master_behav xil_defaultlib.SPI_Master -log elaborate.log" 
+// Tcl Message: Built simulation snapshot SPI_Master_behav 
+// TclEventType: LAUNCH_SIM
+// TclEventType: LOAD_FEATURE
+// Tcl Message:  ****** Webtalk v2019.2 (64-bit)   **** SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019   **** IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019     ** Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.  source C:/Users/Abhishek/Desktop/UART/spi_controller/spi -notrace couldn't read file "C:/Users/Abhishek/Desktop/UART/spi_controller/spi": permission denied INFO: [Common 17-206] Exiting Webtalk at Wed Aug 11 23:57:39 2021... 
+// Tcl Message: run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:12 . Memory (MB): peak = 2039.934 ; gain = 0.000 
+// Tcl Message: INFO: [USF-XSim-69] 'elaborate' step finished in '12' seconds INFO: [USF-XSim-4] XSim::Simulate design INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Abhishek/Desktop/UART/spi_controller/spi controller/spi controller.sim/sim_1/behav/xsim' INFO: [USF-XSim-98] *** Running xsim 
+// Tcl Message:    with args "SPI_Master_behav -key {Behavioral:sim_1:Functional:SPI_Master} -tclbatch {SPI_Master.tcl} -log {simulate.log}" 
+// Tcl Message: INFO: [USF-XSim-8] Loading simulator feature 
+// Tcl Message: Vivado Simulator 2019.2 
+// WARNING: HEventQueue.dispatchEvent() is taking  1166465 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 1,968 MB. GUI used memory: 99 MB. Current time: 8/12/21, 12:28:22 AM IST
+// WARNING: HEventQueue.dispatchEvent() is taking  41280446 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 1,968 MB. GUI used memory: 100 MB. Current time: 8/12/21, 11:56:28 AM IST
+// WARNING: HEventQueue.dispatchEvent() is taking  1278 ms.
+// Elapsed time: 43268 seconds
+selectButton(RDIResource.ProgressDialog_CANCEL, "Cancel"); // a (e)
+// Tcl Message: INFO: [Common 17-41] Interrupt caught. Command should exit soon. 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,968 MB. GUI used memory: 91 MB. Current time: 8/12/21, 12:26:28 PM IST
+// WARNING: HEventQueue.dispatchEvent() is taking  408295 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1003 ms.
+// Elapsed time: 2626 seconds
+selectButton(RDIResource.ProgressDialog_BACKGROUND, "Background"); // a (e)
+// 'd' command handler elapsed time: 45894 seconds
+closeMainWindow("spi controller - [C:/Users/Abhishek/Desktop/UART/spi_controller/spi controller/spi controller.xpr] - Vivado 2019.2"); // cr
+// HOptionPane Warning: 'A background task is running. Please wait until it completes to exit Vivado. If you choose to abort background task and exit immediately, you will lose all unsaved changes to project. (Background Task)'
